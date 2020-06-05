@@ -1,0 +1,123 @@
+body {
+    font-size: 12px;
+    line-height: 16px;
+    color: #1c1c1c;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.container {
+    width: 832px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+   
+}
+
+header .title {
+    text-transform: uppercase;
+    font-size: 17px;
+    padding-top: 20px;
+}
+
+header h1 {
+    text-transform: capitalize;
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+.star {
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.checked {
+    color: #e6003d;
+}
+
+header .text {
+    font-style: italic;
+    font-size: 16px;
+    width: 600px;
+    margin: 0 auto;
+    padding-top: 8px;
+    padding-bottom: 30px;
+    line-height: 25px;
+}
+
+header .button {
+    text-decoration: none;
+    background-color: #e00e32;
+    color: #fff;
+    padding: 10px 70px;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+
+header .button:hover {
+    background-color: #e22d4b;
+}
+.info {
+    padding-left: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #afa4a4;
+    overflow: auto;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+.info div {
+    float: left;
+    width: 33.3333%;
+    box-sizing: border-box;
+}
+
+.info .level {
+    padding-left: 0px;
+    padding-top: 15px;
+}
+
+.info .time {
+    border-width: 0 1px;
+    border-style: solid;
+    border-color: #afa4a4;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.info .yield {
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-left: 40px;
+}
+
+.columns {
+    overflow: auto;
+    padding-left: 40px;
+
+}
+.columns h3 {
+    font-size: 24px;
+}
+.ingredients{
+    float: left;
+    width: 370px;
+    line-height: 35px;
+    font-size: 14px;
+}
+
+.ingredients ul {
+    list-style-type: none;
+}
+
+.directions {
+    float: left;
+    width: 416px;
+    font-size: 16px;
+    line-height: 30px;
+}
